@@ -1,0 +1,170 @@
+@font-face {
+  font-family: lato;
+  src: url(lato.ttf);
+}
+
+* {
+ font-family: lato;
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ display: grid;
+ place-items: center;
+ background-color: #e8e8e8;
+ color: #2f2f2f;
+}
+
+.navbarmain {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+.navbar {
+ display: inline;
+ float: left;
+ padding-bottom: 5px;
+ border-bottom: 2px solid #525252;
+ border-top: 2px solid #525252;
+}
+
+.navbar a {
+ padding: 20px;
+}
+
+.navbar:last-child {
+ border-right: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #2f2f2f
+}
+
+.article {
+ font-size: 110%;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
+}
+
+.gray {
+ color: #2f2f2f
+}
+
+.gray:link, .gray:visited, .gray:active {
+ background-color: transparent;
+ text-decoration: none;
+}
+
+.gray:hover {
+ color: #525252;
+ background-color: transparent;
+ text-decoration: bold;
+}
+
+.logo {
+ width: 300px;
+ border-radius: 10%;
+ margin-left: auto;
+ margin-right: auto;
+ transition: 0.1s;
+}
+
+.logo:hover {
+ scale: 1.1;
+}
+
+a {
+ text-decoration: none;
+ color: #1a57ff
+}
+
+.line {
+ font-size: 20px
+}
+
+.profile {
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.inlimg {
+  margin: 15px 5px 5px 5px;
+  color: #ffffff;
+  float: right;
+  width: 300px;
+  transition: 50ms;
+}
+
+.inlimg:hover {
+  scale: 0.95;
+  border-bottom: #5e5e5e solid 0.01px;
+}
+
+.inlimg img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: #2f2f2f;
+  padding: 12px;
+  font-size: 19px;
+  border: none;
+  text-decoration: bold;
+  border-bottom: 2px solid #525252;
+  border-top: 2px solid #525252;
+}
+
+.dropbtn:hover {
+  color: #525252;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e8e8e8;
+  min-width: 160px;
+  box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #2f2f2f
+}
+
+.dropdown-content a:link, .dropdown-content a:visited, .dropdown-content a:active {
+  background: transparent;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
